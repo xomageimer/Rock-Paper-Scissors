@@ -6,5 +6,8 @@
 #include <SFML/OpenGL.hpp>
 #include <iostream>
 #include <string>
+#include <chrono>
+#include <thread>
+#include <ctime>
 
 #endif 

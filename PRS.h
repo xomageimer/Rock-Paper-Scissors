@@ -20,11 +20,14 @@ struct rock : prs
 			throw;
 		sprite.setTexture(texture);
 	}
-	bool beat(scissors & s) {
+	int beat(scissors & s) {
 		return 1;
 	}
+	int beat(rock & s) {
+		return 2;
+	}
 	template <class T>
-	bool beat(T & ) {
+	int beat(T & ) {
 		return 0;
 	};
 };
@@ -37,11 +40,14 @@ struct paper : prs
 			throw;
 		sprite.setTexture(texture);
 	}
-	bool beat(rock & r) {
+	int beat(rock & r) {
 		return 1;
 	}
+	int beat(paper & s) {
+		return 2;
+	}
 	template <class T>
-	bool beat(T &) {
+	int beat(T &) {
 		return 0;
 	};
 };
@@ -54,11 +60,14 @@ struct scissors : prs
 			throw;
 		sprite.setTexture(texture);
 	}
-	bool beat(paper & p) {
+	int beat(paper & p) {
 		return 1;
 	}
+	int beat(scissors & p) {
+		return 2;
+	}
 	template <class T>
-	bool beat(T &) {
+	int beat(T &) {
 		return 0;
 	};
 };
