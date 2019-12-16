@@ -1,51 +1,5 @@
-﻿  Source.cpp
-c:\users\xomag\source\repos\paperrockscissors\source.cpp(112): warning C4244: =: преобразование "T" в "T", возможна потеря данных
-          with
-          [
-              T=int
-          ]
-          and
-          [
-              T=float
-          ]
-c:\users\xomag\source\repos\paperrockscissors\source.cpp(113): warning C4244: =: преобразование "T" в "T", возможна потеря данных
-          with
-          [
-              T=int
-          ]
-          and
-          [
-              T=float
-          ]
-c:\users\xomag\source\repos\paperrockscissors\source.cpp(129): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-c:\users\xomag\source\repos\paperrockscissors\source.cpp(163): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-c:\users\xomag\source\repos\paperrockscissors\source.cpp(181): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-c:\users\xomag\source\repos\paperrockscissors\source.cpp(189): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-c:\users\xomag\source\repos\paperrockscissors\source.cpp(197): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
-          with
-          [
-              T=float
-          ]
-c:\users\xomag\source\repos\paperrockscissors\source.cpp(217): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+﻿  pch.cpp
   Создание кода
-  1 of 129 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+  All 129 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Создание кода завершено
   PaperRockScissors.vcxproj -> C:\Users\xomag\source\repos\PaperRockScissors\Release\PaperRockScissors.exe

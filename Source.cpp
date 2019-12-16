@@ -2,7 +2,6 @@
 #include "PRS.h"
 #include <locale>
 
-
 bool isSpriteHover(sf::FloatRect sprite, sf::Vector2f mp)
 {
 	if (sprite.contains(mp)) {
@@ -211,7 +210,7 @@ int main()
 						/*p.sprite.setPosition(sf::Vector2f(300, 430));
 						s.sprite.setPosition(sf::Vector2f(300, 530));*/
 						timer += clock.getElapsedTime().asMicroseconds();
-						if (timer > 5000) j = 4;
+						if (timer > 2000) j = 4;
 
 
 						srand(time(0));
