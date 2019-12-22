@@ -132,6 +132,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased &&  event.mouseButton.button == sf::Mouse::Left)
 				{
 					window3.setVisible(false);
+					
 					window4.create(sf::VideoMode(1200, 200), "Rules", sf::Style::Close);
 					while (window4.isOpen()) {
 						sf::Event event;
@@ -166,6 +167,7 @@ int main()
 				if (event.type == sf::Event::MouseButtonReleased &&  event.mouseButton.button == sf::Mouse::Left)
 				{
 					window3.close();
+					clock.restart();
 					window.create(sf::VideoMode(1000, 900), "Rock&Scissors&Paper", sf::Style::Close);
 					while (window.isOpen())
 					{
