@@ -93,6 +93,7 @@ int main()
 	rock p;
 	scissors s;
 	paper r;
+
 	// для бота:
 
 	rock bp;
@@ -116,6 +117,7 @@ int main()
 	int k = 0;
 	int flag = -1;
 	float timer = 0.f;
+	sf::Clock clock;
 
 	while (window3.isOpen()) {
 		sf::Event event;
@@ -205,12 +207,14 @@ int main()
 						}
 						window.clear(sf::Color::Black);
 
-						sf::Clock clock;
+						
 
 						/*p.sprite.setPosition(sf::Vector2f(300, 430));
 						s.sprite.setPosition(sf::Vector2f(300, 530));*/
-						timer += clock.getElapsedTime().asMicroseconds();
-						if (timer > 2000) j = 4;
+					
+						timer = timer / 800;
+						timer += clock.getElapsedTime().asSeconds();
+						if (timer > 5) j = 4;
 
 
 						srand(time(0));
@@ -307,7 +311,8 @@ int main()
 							j = 0;
 							k = 0;
 							flag = -1;
-							timer = 0;
+							timer = clock.getElapsedTime().asSeconds();
+							clock.restart();
 							window2.close();
 
 

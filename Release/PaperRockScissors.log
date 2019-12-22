@@ -1,5 +1,51 @@
-﻿  pch.cpp
+﻿  Source.cpp
+c:\users\xomag\source\repos\paperrockscissors\source.cpp(112): warning C4244: =: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\xomag\source\repos\paperrockscissors\source.cpp(113): warning C4244: =: преобразование "T" в "T", возможна потеря данных
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+c:\users\xomag\source\repos\paperrockscissors\source.cpp(130): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\xomag\source\repos\paperrockscissors\source.cpp(164): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\xomag\source\repos\paperrockscissors\source.cpp(182): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\xomag\source\repos\paperrockscissors\source.cpp(190): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\xomag\source\repos\paperrockscissors\source.cpp(198): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\xomag\source\repos\paperrockscissors\source.cpp(220): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   Создание кода
-  All 129 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  1 of 129 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
   PaperRockScissors.vcxproj -> C:\Users\xomag\source\repos\PaperRockScissors\Release\PaperRockScissors.exe
